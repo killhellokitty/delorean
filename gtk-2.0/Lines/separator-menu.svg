@@ -25,7 +25,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="27.580455"
-     inkscape:cx="0.77470493"
+     inkscape:cx="7.2833864"
      inkscape:cy="2.1315737"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -73,7 +73,7 @@
        y="-7"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#737373;fill-opacity:1;stroke:none"
+       style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.4"
        id="rect2986"
        width="21"
        height="1"

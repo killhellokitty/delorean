@@ -15,17 +15,17 @@
    id="svg33222"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="button-prelight-nohilight.svg">
+   sodipodi:docname="button-pressed-nohilight.svg">
   <defs
      id="defs33224">
     <linearGradient
        id="linearGradient3920">
       <stop
-         style="stop-color:#6d6d6d;stop-opacity:1;"
+         style="stop-color:#262626;stop-opacity:1;"
          offset="0"
          id="stop3922" />
       <stop
-         style="stop-color:#858585;stop-opacity:1;"
+         style="stop-color:#424242;stop-opacity:1;"
          offset="1"
          id="stop3925" />
     </linearGradient>
@@ -317,15 +317,15 @@
     <linearGradient
        id="linearGradient3845-6">
       <stop
-         style="stop-color:#4c4c4c;stop-opacity:1;"
+         style="stop-color:#161616;stop-opacity:1;"
          offset="0"
          id="stop3847-0" />
       <stop
          id="stop3838"
          offset="0.69999999"
-         style="stop-color:#525252;stop-opacity:1;" />
+         style="stop-color:#1c1c1c;stop-opacity:1;" />
       <stop
-         style="stop-color:#565656;stop-opacity:1;"
+         style="stop-color:#222222;stop-opacity:1;"
          offset="1"
          id="stop3849-6" />
     </linearGradient>
@@ -644,7 +644,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="17.31"
-     inkscape:cx="7.0405869"
+     inkscape:cx="-13.236709"
      inkscape:cy="7.8979729"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -676,7 +676,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -693,7 +693,7 @@
        height="15.838063"
        width="14.838063"
        id="rect17861-2"
-       style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:1.16193676;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       style="opacity:0.2;color:#000000;fill:none;stroke:#ffffff;stroke-width:1.16193675999999990;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <rect
        ry="3.4670556"
        rx="3.4670556"

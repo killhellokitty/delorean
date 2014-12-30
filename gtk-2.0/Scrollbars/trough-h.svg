@@ -536,7 +536,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="8.0800657"
-     inkscape:cx="5.2234603"
+     inkscape:cx="-16.49666"
      inkscape:cy="16.650252"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -566,7 +566,7 @@
     <g
        transform="matrix(0,1,-1,0,1052.3622,1038.3622)"
        id="g3157"
-       style="fill:#7d7d7d;fill-opacity:1;stroke:#7c7c7c;stroke-opacity:1">
+       style="fill:#404040;fill-opacity:1;stroke:#404040;stroke-opacity:1">
       <rect
          inkscape:export-ydpi="93.567406"
          inkscape:export-xdpi="93.567406"
@@ -578,14 +578,14 @@
          height="62.978165"
          width="12.978163"
          id="rect3753-8-7-4-3-7-5"
-         style="fill:#7d7d7d;fill-opacity:1;stroke:#7c7c7c;stroke-width:1.02183723000000004;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         style="fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:1.02183723000000004;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <rect
          y="988.36218"
          x="0"
          height="64"
          width="2"
          id="rect3841"
-         style="opacity:0.23999999000000000;fill:#7d7d7d;fill-opacity:1;fill-rule:nonzero;stroke:#7c7c7c;stroke-opacity:1" />
+         style="opacity:0.23999999000000000;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-opacity:1" />
     </g>
   </g>
 </svg>

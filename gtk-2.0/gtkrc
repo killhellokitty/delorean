@@ -1,6 +1,6 @@
 # Bridge | ScionicSpectre
 
-gtk-color-scheme	= "base_color:#c3c3c3\nfg_color:#131313\ntooltip_fg_color:#FFFFFF\nselected_bg_color:#006aa8\nselected_fg_color:#FFFFFF\ntext_color:#131313\nbg_color:#7b7b7b\ninsensitive_bg_color:#757575\ntooltip_bg_color:#343434"
+gtk-color-scheme	= "base_color:#363636\nfg_color:#dbdbdb\ntooltip_fg_color:#FFFFFF\nselected_bg_color:#006aa8\nselected_fg_color:#FFFFFF\ntext_color:#dbdbdb\nbg_color:#2c2c2c\ninsensitive_bg_color:#282828\ntooltip_bg_color:#343434"
 
 gtk-auto-mnemonics              = 1
 gtk-primary-button-warps-slider = 1
@@ -82,13 +82,13 @@ style "default"
 	fg[NORMAL]		= @text_color
 	fg[PRELIGHT]		= @fg_color
 	fg[SELECTED]		= @selected_fg_color
-	fg[INSENSITIVE]		= "#4e5051"
+	fg[INSENSITIVE]		= "#56585a"
 	fg[ACTIVE]		= @fg_color
 
 	text[NORMAL]		= @text_color
 	text[PRELIGHT]		= @text_color
 	text[SELECTED]		= @selected_fg_color
-	text[INSENSITIVE]	= "#4e5051"
+	text[INSENSITIVE]	= "#56585a"
 	text[ACTIVE]		= @selected_fg_color
 
 	base[NORMAL]		= @base_color
@@ -110,7 +110,7 @@ style "default"
             recolorable     		= TRUE
             state 			= NORMAL
             shadow          		= OUT
-            overlay_file    		= "Check-Radio/checkbox-unchecked.png"
+            overlay_file    		= "Check-Radio/checkbox-unchecked-dark.png"
             overlay_stretch 		= FALSE
         }
 	image 
@@ -119,7 +119,7 @@ style "default"
             recolorable     		= TRUE
             state 			= PRELIGHT
             shadow          		= OUT
-            overlay_file    		= "Check-Radio/checkbox-unchecked.png"
+            overlay_file    		= "Check-Radio/checkbox-unchecked-dark.png"
             overlay_stretch 		= FALSE
         }
 	image 
@@ -128,7 +128,7 @@ style "default"
             recolorable     		= TRUE
             state 			= ACTIVE
             shadow          		= OUT
-            overlay_file    		= "Check-Radio/checkbox-unchecked.png"
+            overlay_file    		= "Check-Radio/checkbox-unchecked-dark.png"
             overlay_stretch 		= FALSE
         }
 	image
@@ -137,7 +137,7 @@ style "default"
             recolorable     		= TRUE
             state 			= SELECTED
             shadow          		= OUT
-            overlay_file    		= "Check-Radio/checkbox-unchecked.png"
+            overlay_file    		= "Check-Radio/checkbox-unchecked-dark.png"
             overlay_stretch 		= FALSE
         }
 	image 
@@ -146,7 +146,7 @@ style "default"
             recolorable     		= TRUE
             state 			= INSENSITIVE
             shadow          		= OUT
-            overlay_file    		= "Check-Radio/checkbox-unchecked-insensitive.png"
+            overlay_file    		= "Check-Radio/checkbox-unchecked-insensitive-dark.png"
             overlay_stretch 		= FALSE
         }
 	image 
@@ -155,7 +155,7 @@ style "default"
             recolorable     		= TRUE
 	    state	 		= NORMAL
             shadow          		= IN
-            overlay_file    		= "Check-Radio/checkbox-checked.png"
+            overlay_file    		= "Check-Radio/checkbox-checked-dark.png"
             overlay_stretch	 	= FALSE
         }
 	image 
@@ -164,7 +164,7 @@ style "default"
             recolorable     		= TRUE
 	    	  state 		= PRELIGHT
             shadow          		= IN
-            overlay_file    		= "Check-Radio/checkbox-checked.png"
+            overlay_file    		= "Check-Radio/checkbox-checked-dark.png"
             overlay_stretch 		= FALSE
         }
 	image 
@@ -173,7 +173,7 @@ style "default"
             recolorable     		= TRUE
 	    state 		        = ACTIVE
             shadow          		= IN
-            overlay_file    		= "Check-Radio/checkbox-checked.png"
+            overlay_file    		= "Check-Radio/checkbox-checked-dark.png"
             overlay_stretch 		= FALSE
         }
 	image
@@ -182,7 +182,7 @@ style "default"
             recolorable     		= TRUE
 	    state 		        = SELECTED
             shadow          		= IN
-            overlay_file    		= "Check-Radio/checkbox-checked.png"
+            overlay_file    		= "Check-Radio/checkbox-checked-dark.png"
             overlay_stretch 		= FALSE
         }
 	image 
@@ -191,7 +191,7 @@ style "default"
             recolorable     		= TRUE
             state 		        = INSENSITIVE
             shadow          		= IN
-            overlay_file		= "Check-Radio/checkbox-checked-insensitive.png"
+            overlay_file		= "Check-Radio/checkbox-checked-insensitive-dark.png"
             overlay_stretch 		= FALSE
 	}
 
@@ -202,7 +202,7 @@ style "default"
             function        		= OPTION
             state 			= NORMAL
             shadow          		= OUT
-            overlay_file    		= "Check-Radio/option-unchecked.png"
+            overlay_file    		= "Check-Radio/option-unchecked-dark.png"
             overlay_stretch 		= FALSE
         }
 	image 
@@ -210,7 +210,7 @@ style "default"
             function        		= OPTION
             state 			= PRELIGHT
             shadow          		= OUT
-            overlay_file    		= "Check-Radio/option-unchecked.png"
+            overlay_file    		= "Check-Radio/option-unchecked-dark.png"
             overlay_stretch 		= FALSE
         }
 	image 
@@ -218,7 +218,7 @@ style "default"
             function        		= OPTION
             state 			= ACTIVE
             shadow          		= OUT
-            overlay_file    		= "Check-Radio/option-unchecked.png"
+            overlay_file    		= "Check-Radio/option-unchecked-dark.png"
             overlay_stretch 		= FALSE
         }
 	image
@@ -226,7 +226,7 @@ style "default"
             function        		= OPTION
             state 			= SELECTED
             shadow          		= OUT
-            overlay_file    		= "Check-Radio/option-unchecked.png"
+            overlay_file    		= "Check-Radio/option-unchecked-dark.png"
             overlay_stretch 		= FALSE
         }
 	image 
@@ -234,7 +234,7 @@ style "default"
             function        		= OPTION
             state 			= INSENSITIVE
             shadow         		= OUT
-            overlay_file    		= "Check-Radio/option-unchecked-insensitive.png"
+            overlay_file    		= "Check-Radio/option-unchecked-insensitive-dark.png"
             overlay_stretch 		= FALSE
         }
 	image 
@@ -242,7 +242,7 @@ style "default"
             function        		= OPTION
 	    state 			= NORMAL
             shadow          		= IN
-            overlay_file    		= "Check-Radio/option-checked.png"
+            overlay_file    		= "Check-Radio/option-checked-dark.png"
             overlay_stretch 		= FALSE
         }
  	image 
@@ -250,7 +250,7 @@ style "default"
             function        		= OPTION
 	    state			= PRELIGHT
             shadow          		= IN
-            overlay_file    		= "Check-Radio/option-checked.png"
+            overlay_file    		= "Check-Radio/option-checked-dark.png"
             overlay_stretch 		= FALSE
         }
 	image 
@@ -258,7 +258,7 @@ style "default"
             function        		= OPTION
 	    state			= ACTIVE
             shadow          		= IN
-            overlay_file    		= "Check-Radio/option-checked.png"
+            overlay_file    		= "Check-Radio/option-checked-dark.png"
             overlay_stretch	 	= FALSE
         }
 	image
@@ -266,7 +266,7 @@ style "default"
             function        		= OPTION
 	    state			= SELECTED
             shadow          		= IN
-            overlay_file    		= "Check-Radio/option-checked.png"
+            overlay_file    		= "Check-Radio/option-checked-dark.png"
             overlay_stretch	 	= FALSE
         }
 	image 
@@ -274,7 +274,7 @@ style "default"
             function        		= OPTION
 	    state 			= INSENSITIVE
             shadow          		= IN
-            overlay_file    		= "Check-Radio/option-checked-insensitive.png"
+            overlay_file    		= "Check-Radio/option-checked-insensitive-dark.png"
             overlay_stretch 		= FALSE
         }
 
@@ -568,7 +568,7 @@ style "ooo_stepper_hack"
 style "background"
 {
 
- bg_pixmap[NORMAL] = "Others/background.png"
+ bg_pixmap[NORMAL] = "Others/background-dark.png"
 	xthickness = 0
 	ythickness = 0
 
@@ -740,7 +740,7 @@ style "menubar"
 		function	= BOX
 		recolorable	= TRUE
 		state		= NORMAL
-		file		= "Others/background.png"
+		file		= "Others/background-dark.png"
 		border		= { 0 ,0 , 0 ,0}
 		stretch		= TRUE
 	}
@@ -751,7 +751,7 @@ style "menubar"
 	      state		= PRELIGHT
 	      file		= "Menu-Menubar/menubar-button.svg"
 
-	      border		= { 3,3,3,3 }
+	      border		= { 0,0,0,10 }
 	      stretch		= TRUE
 	  }
 	}
@@ -764,7 +764,7 @@ style "menu"
 
 	GtkMenuItem::arrow-scaling	= 0.4
 
-	bg[NORMAL]	= "#929292"
+	bg[NORMAL]	= "#262626"
         bg[INSENSITIVE] = @base_color
         bg[PRELIGHT]    = @base_color
 
@@ -774,7 +774,7 @@ style "menu"
 	{
 	  function			= HLINE
 	  file				= "Lines/separator-menu.svg"
-	  border			= { 0, 0, 0, 0 }
+	  border			= { 21,0,0,0 }
 	  stretch			= TRUE
 	}
     }
@@ -792,7 +792,7 @@ style "menu_separator"
 		function		= BOX
 	 	recolorable		= TRUE
 	 	file			= "Lines/separator-menu.svg"
-		border			= {0,0, 1,1 }
+		border			= {21,0,0,0 }
 		stretch			= TRUE
         orientation     = HORIZONTAL		
 	}
@@ -983,7 +983,7 @@ style "menu_item"
 	{
 	  function			= ARROW
 	  state				= NORMAL
-	  overlay_file			= "Arrows/menu-arrow.png"
+	  overlay_file			= "Arrows/menu-arrow.svg"
 	  overlay_border		= { 0, 0, 0, 0 }
 	  overlay_stretch		= FALSE
 	  arrow_direction		= RIGHT
@@ -992,7 +992,7 @@ style "menu_item"
 	{
 	  function			= ARROW
 	  state				= PRELIGHT
-	  overlay_file			= "Arrows/menu-arrow-prelight.png"
+	  overlay_file			= "Arrows/menu-arrow-prelight.svg"
 	  overlay_border		= { 0, 0, 0, 0 }
 	  overlay_stretch		= FALSE
 	  arrow_direction		= RIGHT
@@ -1005,7 +1005,7 @@ style "menubar_item"
 	xthickness	= 2
 	ythickness	= 3
 	bg[PRELIGHT]	= @selected_fg_color
-	fg[PRELIGHT]	= shade(0.6, "#006aa8")
+	fg[PRELIGHT]	= shade(1.2, "#006aa8")
 }
 
 style "button"
@@ -1117,11 +1117,11 @@ style "entry"
 	xthickness	= 3
 	ythickness   	= 4
 
-        base[NORMAL] = "#dbdbdb" #Non Gtk apps like Spotify and Opera use this as the entry text-input color. So its better to color the entry background colors#
+        base[NORMAL] = "#dbdbdb" #Non Gtk apps like Spotify and Opera use this as the entry text-input color. So its better to color the images for the entry background colors#
         base[INSENSITIVE]       = @insensitive_bg_color
         text[SELECTED]  	= "#fff"
-        text[NORMAL] 		= "#131313"
-        text[INSENSITIVE]	= "#4e5051"
+        text[NORMAL] 		= "#d2d2d2"
+        text[INSENSITIVE]	= "#56585a"
 
 	engine "pixmap"
 	{
@@ -1808,8 +1808,9 @@ style "libreoffice_entry"
         }
 }
 
-style "standalone_entry"
+style "standalone_entry" #No longer works!!!#
 {
+
         engine "pixmap"
         {
         image
@@ -1991,7 +1992,7 @@ style "handlebox"
     image
     {
       function                  = BOX
-      file			= "Others/background.png"
+      file			= "Others/background-dark.png"
       border			= { 0,0,0,0 }
       stretch			= TRUE
       detail                    = "handlebox_bin"
@@ -2000,7 +2001,7 @@ style "handlebox"
     image
     {
       function                  = BOX
-      file			= "Others/background.png"
+      file			= "Others/background-dark.png"
       border			= { 0,0,0,0 }
       stretch			= TRUE
       detail                    = "handlebox_bin"
@@ -2230,8 +2231,8 @@ style "treeview_header"
 {
         ythickness = 1
 
-        fg[NORMAL] = "#bebebe"
-        fg[PRELIGHT] = "#d2d2d2"
+        fg[NORMAL] = "#8b8b8a"
+        fg[PRELIGHT] = "#bcbcbb"
         font_name = "Bold"
 
 	engine "pixmap"
@@ -2372,7 +2373,7 @@ style "toolbar"
 	image
 	{
 		function			= BOX
-		file				= "Others/background.png"
+		file				= "Others/background-dark.png"
 		border				= { 0,0,0,0 }
 		stretch				= TRUE
 		detail              = "toolbar"
@@ -2426,8 +2427,8 @@ style "text"
 
 engine "murrine"
  	{
-		text_shade = 1.7
-		textstyle = 1
+		text_shade = 0.4
+		textstyle = 2
 	}
 }
 
@@ -2444,7 +2445,7 @@ engine "murrine"
 # Chromium
 style "chrome-gtk-frame"
 {
-	ChromeGtkFrame::frame-color = "#7b7b7b"
+	ChromeGtkFrame::frame-color = "#2d2d2d"
 	ChromeGtkFrame::inactive-frame-color = @bg_color
 
 	ChromeGtkFrame::frame-gradient-size = 16
@@ -2481,10 +2482,10 @@ style "null"
 # Gimp Spin Scale######################################################
 style "gimp_spin_scale"  =  "gtk_color"
 {
-		base[NORMAL] 		= "#949494"
-		bg[NORMAL] 		= "#949494"
+		base[NORMAL] 		= shade(0.7, "#1e1e1e")
+		bg[NORMAL] 			= shade(0.7, "#1e1e1e")
 		bg[SELECTED] 		= "#006aa8"
-		text[NORMAL] 		= @fg_color
+		text[NORMAL] 		= shade(0.8, @fg_color)
   
   engine "pixmap"
   {
@@ -2568,6 +2569,14 @@ style "gimp_spin_scale"  =  "gtk_color"
   }
 }
 
+# XChat Text Input#####################################################
+style "xchat_text"  
+{
+		base[NORMAL] 		= "#030303"
+}
+
+class "GimpSpinScale"                   style:highest "gimp_spin_scale"
+
 class "GtkWidget"			style "default"
 class "GtkWindow"			style "background"
 class "GtkEventBox"   		        style "background"
@@ -2649,6 +2658,9 @@ widget "*swt-toolbar-flat"		style "null"
 #Misc.
 widget_class "*GksuuiDialogType"                style "background"
 widget "*ExoIconView*"                          style:highest "background"
+
+# Xchat special cases
+widget "*xchat-inputbox"                                     style "xchat_text"
 
 # Text using Murrine-Engine to make it cleaner and clearer(the Mist-Engine also has great text rendering) ##
 widget_class "*<GtkLabel>" style "text"

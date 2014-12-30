@@ -168,7 +168,7 @@
 </draw_ops>
 <draw_ops name="entire_background_focused">
 	<tile name="background_focused" tile_height="30" tile_width="200" x="0" y="0" />
-	<tint color="C_background_dark_overlay" alpha="0.5" x="0" y="0" width="width" height="height"/>
+	
 </draw_ops>
 
 <!-- <background image Unfocused -->
@@ -179,7 +179,7 @@
 </draw_ops>
 <draw_ops name="entire_background_unfocused">
 	<tile name="background_unfocused" tile_height="30" tile_width="200" x="0" y="0" />
-	<tint color="C_background_dark_overlay" alpha="0.5" x="0" y="0" width="width" height="height"/>
+	
 </draw_ops>
 
 <!-- <titlebar focused highlight overlay -->
@@ -206,6 +206,9 @@
 <draw_ops name="titlebar_focused">
 	<include name="titlebar_fill_focused" />
 	<include name="hilight" />
+</draw_ops>
+
+<draw_ops name="max_titlebar_focused">
 </draw_ops>
 
 <draw_ops name="rounded_titlebar_focused">
@@ -959,7 +962,7 @@
 
 <frame_style name="normal_max_focused" geometry="max">
 	<piece position="entire_background" draw_ops="entire_background_focused" />
-	<piece position="titlebar" draw_ops="titlebar_focused" />
+	<piece position="titlebar" draw_ops="max_titlebar_focused" />
 	<piece position="title" draw_ops="title_focused" />
 	<button function="close" state="normal" draw_ops="close_focused" />
 	<button function="close" state="pressed" draw_ops="close_focused_pressed" />
@@ -998,7 +1001,7 @@
 
 <frame_style name="normal_max_unfocused" geometry="max">
 	<piece position="entire_background" draw_ops="entire_background_unfocused" />
-	<piece position="titlebar" draw_ops="titlebar_unfocused" />
+	<piece position="titlebar" draw_ops="max_titlebar_focused" />
 	<piece position="title" draw_ops="title_unfocused" />
 	<button function="close" state="normal" draw_ops="close_unfocused"/>
 	<button function="close" state="prelight" draw_ops="close_unfocused_prelight"/>

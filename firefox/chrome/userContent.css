@@ -13,7 +13,7 @@
                      /*by killhellokitty/jo-shva mar 2013*/
 /************ Fixes Color of Input/Entry Boxes within Web-Pages **************/
 /*remove if you would like dark-gray input boxes in web-pages, or change to your liking*/
-input {
+input,select {
     -moz-appearance: none !important;
     background-color: #Fff !important;
     color: #000 !important;
@@ -23,6 +23,18 @@ textarea {
     -moz-appearance: none !important;
     background-color: #Fff !important;
     color: #000 !important;
+}
+
+a[class="file"],
+a[class="dir"],
+a[class="symlink"] {
+    color: #2EB8E6 !important;
+}
+
+a:visited[class="file"],
+a:visited[class="dir"],
+a:visited[class="symlink"] {
+    color: #FF6666 !important;
 }
 
 /*************************** THEME Below this line ***************************/
@@ -579,8 +591,8 @@ margin-bottom:0px !important;
 .newtab-cell {
   -moz-margin-end: 20px !important;
   background-color: #525252 !important;
-  border: 3px solid #006aa8 important;
-  border-radius: 7px !important;
+  border: 2px solid rgba(255,255,255,0.4) !important;
+  border-radius: 2px !important;
   box-shadow: -1px -1px 3px rgba(0,0,0,0.2),
 				1px 1px 3px rgba(0,0,0,0.2) !important;
   -moz-transition: border-color 100ms ease-out,
@@ -590,7 +602,7 @@ margin-bottom:0px !important;
 .newtab-cell:hover:not(:empty) {
   box-shadow: -1px -1px 4px rgba(0,0,0,0.3),
 				1px 1px 4px rgba(0,0,0,0.3) !important;
-  border: 3px solid #006aa8 !important;
+  border: 2px solid rgba(255,255,255,0.5) !important;
   -moz-transition: .2s ease-out;
 }
 
@@ -607,7 +619,7 @@ margin-bottom:0px !important;
 
 .newtab-title {
   padding: 0 8px!important;
-   background: rgba(0,106,168,0.6)!important;
+  background: #006aa8!important;
   box-shadow: 0px 1px 1px rgba(255,255,255,.05)inset,
 				1px -1px 1px rgba(0,0,0,.36)inset, 
 				-1px 0px 1px rgba(0,0,0,.36)inset, 
@@ -669,9 +681,70 @@ margin-bottom:0px !important;
   background-position: -232px 0!important;
 }
 
+#newtab-search-text { 
+  color: #505085 !important;
+  border-top: 1px solid #434343 !important;
+  border-left: 1px solid #525252 !important;
+  border-bottom: 1px solid #565656 !important;
+  border-right: 0px !important;
+  border-radius: 3px 0px 0px 3px!important;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2) inset,
+				0 1px 0 rgba(0,0,0,0.08)inset,
+			  0px 1px 0 rgba(255,255,255,0.024) !important;
+  padding: 3px !important;
+  background: #c3c3c3!important;
+  margin: 0px !important;
+  margin-bottom: 1px !important;
+-moz-background-clip: padding; 
+ }
+
+#newtab-search-text:focus { 
+  color: #ffffff !important;
+  border-top: 1px solid #434343 !important;
+  border-left: 1px solid #525252 !important;
+  border-bottom: 1px solid #565656 !important;
+  border-right: 0px !important;
+  background: #d3d3d3 !important;
+  -moz-transition: .30s ease-in !important;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2) inset,
+				0 1px 0 rgba(0,0,0,0.08)inset,
+			  0px 1px 0 rgba(255,255,255,0.024) !important;
+-moz-background-clip: padding; 
+ }
+
+#newtab-search-submit { 
+  color: #dbdbdb !important;
+  border-radius: 0px 3px 3px 0px!important;
+  padding: 3px !important;
+  padding-right: 5px !important;
+  background: -moz-linear-gradient(to bottom, #0093ea, #006AA8 40%, #0067a3) !important; 				   
+  border: 1px solid #525252 !important;    
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(255,255,255, 0.4)!important;
+  margin: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 1px !important;
+  -moz-background-clip: padding!important; 
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.51153) !important;
+  -moz-transition: background .2s ease-in !important;
+ }
 
 
+#newtab-search-submit:hover { 
+  color: #f8f8f8 !important;
+  background:-moz-linear-gradient(to bottom, #0090e5, #0081cd 40%, #0071b3) !important;   
+  border: 1px solid #525252 !important;  
+  inset 0 1px rgba(255, 255, 255, 0.3), 0 1px rgba(255,255,255, 0.4) !important; 
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.51153) !important;
+  -moz-transition: background .2s ease-in !important;
+ }
 
-
-
+#newtab-search-submit:active,
+#newtab-search-submit:active:hover { 
+  background: -moz-linear-gradient(to bottom, #004d7a, #005f96)!important; 
+  border: 1px solid #525252 !important;				
+  box-shadow:inset 0 1px rgba(0, 0, 0, 0.07), inset 0 2px 1px -2px rgba(0, 0, 0, 0.6), 0 1px rgba(255,255,255, 0.4)!important;
+  color: #f8f8f8 !important; 
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.62353) !important;
+  -moz-transition: background .2s ease-in !important;
+ }
 

@@ -15,7 +15,7 @@
    id="svg33222"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="progress-trough-h.svg">
+   sodipodi:docname="progress-trough-v.svg">
   <defs
      id="defs33224">
     <linearGradient
@@ -854,7 +854,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="11.299746"
-     inkscape:cx="30.885183"
+     inkscape:cx="15.35386"
      inkscape:cy="32.70293"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -892,7 +892,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -909,7 +909,7 @@
        height="5.0285349"
        width="63.359215"
        id="rect17861-8"
-       style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:0.97146529;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.2;color:#000000;fill:none;stroke:#ffffff;stroke-width:0.97146529000000004;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        transform="matrix(0,1,-1,0,0,0)" />
     <rect
        ry="2.5142674"
@@ -919,7 +919,7 @@
        height="5.0285349"
        width="63.359215"
        id="rect17861"
-       style="color:#000000;fill:#454545;fill-opacity:1;stroke:#393939;stroke-width:0.97146529;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#212121;fill-opacity:1;stroke:#0f0f0f;stroke-width:0.97146529000000004;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        transform="matrix(0,1,-1,0,0,0)" />
   </g>
 </svg>
