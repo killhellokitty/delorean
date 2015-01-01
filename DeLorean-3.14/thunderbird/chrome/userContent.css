@@ -1,0 +1,413 @@
+
+
+
+/***************************** Add-ons Manager ********************************/
+#addons-page {
+  -moz-appearance: none!important;
+  background:  #7b7b7b!important;
+  background-image: -moz-linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,0.12) 65%, rgba(0,0,0,0.3)) !important;
+  color: WindowText!important!
+  padding: 0 !important;
+}
+ 
+#view-port-container {
+  /* Needed to allow the radius to clip the inner content, see bug 595656 */
+  -moz-appearance: none !important;
+  overflow: hidden!important;
+  background: #7b7b7b !important;
+  width:500px !important;
+  height:500px !important;
+  color: #dbdbdb !important;
+  border: 0 solid !important;
+  border-radius: 0px !important;
+  border-left: 2px solid !important;
+  -moz-border-left-colors:    rgba(255, 255, 255, 0.04)  rgba(0, 0, 0, 0.3)!important;
+  margin: -18px !important;
+  margin-left: 0px !important;
+  margin-top: -2px !important;
+}
+
+#categories {
+  -moz-appearance: none!important;
+  padding-top: 12px!important;
+  padding-bottom: 12px!important;
+  background: #c3c3c3 !important;
+  margin: -18px !important;
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+}
+
+.category,
+#categories richlistitem {
+  -moz-appearance: none !important;
+  background: transparent !important;
+  min-height: 0  !important;
+  padding: 10px 4px  !important;
+  -moz-box-align: center  !important;
+  overflow: hidden  !important;
+  margin: 0px !important;
+  border-radius: 0px !important;
+  border: 1px solid transparent !important;
+  }
+
+#categories richlistitem:hover{
+  color: #000000 !important;
+  background: #c3c3c3 !important;
+}
+
+.category[selected],
+#categories richlistitem[selected="true"] {
+  background:#006aa8 !important;
+  border: 1px solid #525252!important;
+  border-right: none !important;
+  color: #dbdbdb !important;
+  font-weight: bold !important;
+  box-shadow: 1px 1px 0px rgba(0,0,0,.06)inset,
+				0 -1px 0px rgba(0,0,0,.06)inset !important;					
+}
+
+#categories richlistitem{
+  color: #131313 !important;
+}
+
+#categories richlistitem:hover{
+  color: #000000 !important;
+}
+
+#categories richlistitem[selected="true"]:hover {
+	background: #006aa8 !important;
+  color: #ffffff !important;
+}
+
+/*this makes the selected addon to installs main page legable within dark theme*/
+#discover-browser {
+  background: #7b7b7b !important;
+  text-shadow: none !important;
+}
+
+.loading {
+  list-style-image: url("images/loading.png")!important;
+  border-radius: 5px!important;
+  padding-left: 18px;
+  padding-right: 18px;
+  background: rgba(0,0,0,0.2) !important;
+  box-shadow: 0 0 4px rgba(0,0,0,0.26),
+				0 0 1px rgba(255,255,255,0.016)inset!important;
+}
+
+#header-search {
+  -moz-appearance: none !important;
+  border-radius: 3px !important;
+  border: 1px solid rgb(0,0,0) !important;
+  border-top: 1px solid #434343 !important;
+  border-left: 1px solid #525252 !important;
+  border-right: 1px solid #525252 !important;
+  border-bottom: 1px solid #565656 !important;
+  background: #c3c3c3!important;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2) inset,
+				0 1px 0 rgba(0,0,0,0.08) inset,
+			  0px 1px 0 rgba(255,255,255,.08) !important;
+  padding: 3px !important;
+  margin: 0px !important;
+  margin-bottom: 1px !important;
+}
+
+#header-search input {
+    -moz-appearance: none !important;
+    background: #c3c3c3 !important;
+    color: #131313 !important;
+}
+
+#header-search textarea {
+    -moz-appearance: none !important;
+    background: #c3c3c3 !important;
+    color: #131313 !important;
+}
+
+#addons-page > #header {
+-moz-appearance: none !important;
+position: relative!important;
+margin-top: -17px !important;
+margin-left: -18px !important;
+margin-right: -18px !important;
+margin-bottom:0px !important;
+  padding: 15px 11px 14px 19px!important;
+  background:  url("images/background.png") !important;
+  background-position: left top !important;
+  background-repeat: repeat !important;
+  border-bottom: 1px solid #525252 !important;
+  box-shadow: 0px 1px 0 rgba(255,255,255,0.07) inset,
+				inset 1px 0 0 rgba(255,255,255, 0.04),
+				inset 0 -1px 0 rgba(0,0,0, 0.16),
+				inset -1px 0 0 rgba(0,0,0, 0.38)!important;
+}
+
+.view-header {
+  background: #7b7b7b !important;
+  background-image:  #8b8b8b!important;
+  background-position: left center !important;
+  background-repeat: repeat !important;
+  border-top: 1px solid #434343 !important;
+  border-bottom: 1px solid #565656 !important;
+  box-shadow: 0px 1px 0 rgba(255,255,255,0.07) inset,
+				inset 1px 0 0 rgba(255,255,255, 0.04),
+				inset 0 -1px 0 rgba(0,0,0, 0.16),
+				inset -1px 0 0 rgba(0,0,0, 0.38)!important;
+  padding: 4px !important;
+  margin: 0 !important;
+  min-height: 31px !important;
+}
+
+#search-filter {
+  padding: 5px 20px !important;
+  font-size: 120% !important;
+  background: #9b9b9b !important;
+  overflow-x: hidden !important;
+  box-shadow: 0px 1px 0 rgba(255,255,255,0.07) inset,
+				inset 1px 0 0 rgba(255,255,255, 0.04),
+				inset 0 -1px 0 rgba(0,0,0, 0.16),
+				inset -1px 0 0 rgba(0,0,0, 0.38),
+				0px -1px 2px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.26) !important;
+}
+
+.addon {
+  color: #131313 !important;
+  border:  0 solid !important;
+  border-top: 1px solid #434343 !important;
+  box-shadow: none!important;
+  background: #505050 !important;
+}
+
+.addon:first-of-type {
+  border-top: none !important;
+}
+
+.addon:hover {
+  background: -moz-linear-gradient(rgba(0,106,168, 0.4),rgba(0,106,168, 0.4))!important;
+   box-shadow: 0 -1px 0 rgba(0,64,101, 0.4)inset,
+				0 1px 0 rgba(0,64,101, 0.4)inset !important;
+}
+
+.addon[selected] {
+  background: #006aa8!important;
+  color: #f8f8f8 !important;
+   box-shadow: 0 -1px 0 rgba(0,64,101, 0.9)inset,
+				0 1px 0 rgba(0,64,101, 0.9)inset !important;
+  -moz-transition: opacity .2s ease-in;
+}
+
+.addon[selected]:hover {
+  color: #ffffff !important;
+  background: #0075b9!important;
+  box-shadow: 0 -1px 0 rgba(0,64,101, 0.9)inset,
+				0 1px 0 rgba(0,64,101, 0.9)inset !important;
+  -moz-transition: opacity 120ms ease-in;
+}
+
+.addon-view[active="false"],
+.addon-view[active="false"]:hover {
+  background: url("images/stripe-3.png") #505050!important;
+  background-size: 8px!important;
+    background-repeat: repeat!important;
+    box-shadow: none!important;
+}
+
+.addon-view[active="false"][selected],
+.addon-view[active="false"][selected]:hover {
+  background: url("images/stripe-3.png"), #006aa8!important;
+  background-size: 8px!important;
+    background-repeat: repeat!important;
+}
+
+.addon .name-container{
+  color: #131313 !important;
+}
+
+.addon:hover .name-container{
+  color: #000000 !important;
+}
+
+.addon[selected] .name-container,
+.addon[selected="true"] .name-container{
+  color: #f8f8f8 !important;
+}
+
+.addon[selected="true"]:hover .name-container{
+  color: #ffffff !important;
+}
+
+.creator {
+  font-weight: lighter !important;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.42) !important;
+}
+
+.creator .text-link {
+  color: #006aa8 !important;
+}
+
+.addon-view[active="false"],
+.addon-view[active="false"]:hover {
+  color: #47494a !important;
+}
+
+.addon-view[active="false"] .name-container,
+.addon-view[active="false"] .name-container:hover {
+  color: #3e4041 !important;
+}
+
+.addon-view[active="false"][selected],
+.addon-view[active="false"][selected]:hover {
+  color: #3e4041 !important;
+}
+
+.addon-view[active="false"][selected] .name-container {
+  color: #656565 !important;
+}
+
+.addon-view[active="false"][selected]:hover .name-container {
+  color: #676767 !important;
+}
+
+.warning,
+.pending,
+.error {
+  -moz-margin-start: 48px !important;
+  font-weight: bold !important;
+  -moz-box-align: center !important;
+}
+
+.addon-view .warning {
+  color: #E8AC27 !important;
+}
+
+.addon-view .error {
+  color: #ED3431 !important;
+}
+
+.addon-view .pending {
+  color:#F4E0C8 !important;
+}
+
+.addon-view[pending="disable"] .pending,
+.addon-view[pending="uninstall"] .pending {
+  color: #7DB6D3 !important;
+}
+
+.header-button {
+  -moz-appearance: none !important;
+  margin: 0px 5px !important;
+  min-width: 6.3em !important;
+  border-radius: 3px!important;    
+  padding: 0!important; 
+  background: -moz-linear-gradient(to bottom, #0093ea, #006AA8 40%, #0067a3);!important; 
+					   
+  border-top: 1px solid #434343 !important;
+  border-left: 1px solid #525252 !important;
+  border-right: 1px solid #525252 !important;
+  border-bottom: 1px solid #565656 !important;    
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(255,255,255, 0.4)!important;
+}
+
+.header-button[disabled="true"] {
+  color: #545454 !important;
+  background-image: url("images/stripe-5.png") #808080!important;
+  background-size: 6px!important;
+    background-repeat: repeat!important;
+  }
+  
+.header-button:not([open="true"]):not([disabled="true"]):not(:active):hover {
+  background:-moz-linear-gradient(to bottom, #0090e5, #0081cd 40%, #0071b3)!important;   
+  border-top: 1px solid #434343 !important; 
+  border-left: 1px solid #525252 !important; 
+  border-right: 1px solid #525252 !important; 
+  border-bottom: 1px solid #565656 !important; 
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px rgba(255,255,255, 0.4)!important;
+  color: #ffffff !important;
+} 
+
+.header-button:not([open="true"]):not([disabled="true"]):hover:active,
+.header-button:not([open="true"]):not([disabled="true"]):active,
+.header-button[checked="true"]:not([disabled="true"]),
+.header-button[open="true"]:not([disabled="true"]) {
+  background: -moz-linear-gradient(to bottom, #004d7a, #005f96)!important; 
+  border-top: 1px solid #434343 !important; 
+  border-left: 1px solid #525252 !important; 
+  border-right: 1px solid #525252 !important; 
+  border-bottom: 1px solid #565656 !important;				
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.07), inset 0 2px 1px -2px rgba(0, 0, 0, 0.6), 0 1px rgba(255,255,255, 0.4)!important;
+  color: #ffffff !important;
+}
+
+.addon-control {
+  -moz-appearance: none !important;
+  margin: 0px 3px !important;
+  min-height: 24px !important;
+  border-radius: 3px!important;    
+  padding: 0!important; 
+  background: -moz-linear-gradient(to bottom, #a7a7a7, #808080 40%, #7d7d7d)!important; 				   
+  border: 1px solid #525252 !important;    
+  box-shadow:inset 0 1px #9a9a9a, 0 1px rgba(255,255,255, 0.1)!important;
+}
+
+.addon-control:not(:active):hover { 
+  background:-moz-linear-gradient(to bottom, #a5a5a5, #969696 40%, #878787)!important;   
+  border: 1px solid #525252 !important;  
+  box-shadow:  inset 0 1px #c4c4c4, 0 1px rgba(255,255,255, 0.1)!important;
+}
+
+.addon[selected] > .addon-control:not(:active):hover { 
+  background:-moz-linear-gradient(to bottom, #0093ea, #006AA8 40%, #0067a3)!important;   
+  border: 1px solid #004065 !important;  
+  box-shadow:  inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(255,255,255, 0.1)!important;
+}
+
+.addon-control:active:hover {
+  background: -moz-linear-gradient(to bottom, #004d7a, #005f96) !important;				
+  box-shadow:  inset 0 1px rgba(0, 0, 0, 0.07), inset 0 2px 1px -2px rgba(0, 0, 0, 0.6), 0 1px rgba(255,255,255, 0.1)!important;
+  color: #fefefe !important;
+}
+
+.addon-control:focus, .addon-control:active {
+  color: #f8f8f8 !important;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.46923)!important;
+  transition: color .2s ease-in!important;
+}
+
+.addon-control:focus:hover {
+  color: #ffffff !important;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.46923)!important;
+  transition: color opacity .3s ease-in!important;
+}
+/**********************Message Body and Text **************************/
+/** This makes basic HTML mails which are just text appear in white on black, but more complex mails tend to use tables or other layout features with their own custom colours which are preserved. **/
+body {color: #dadada; background-color: #2c2c2c;}
+:link {color: #1170A8!important;}
+
+td {color: black; background-color: white;}
+:link {color: #0000c8;}
+
+@-moz-document url-prefix(mailbox:) {
+  /* all the other rules go here */
+  }
+
+
+/************* Thunderbird Start Page Linux English *******************/
+/**for other languages(and new releases) you must locate the URL for the thunderbird start page and enter it in both locations below **/
+/*@-moz-document url(https://www.mozilla.org/en-US/thunderbird/release/start/?uri=/thunderbird/start&locale=en-US&version=15.0.1&os=Linux&buildid=20120910110134) {
+body {
+ border-top: 2px solid !important;
+ -moz-border-top-colors: rgba(0,0,0,.65) rgba(255,255,255,0.16) !important;
+}}
+
+@-moz-document url(https://www.mozilla.org/en-US/thunderbird/release/start/?uri=/thunderbird/start&locale=en-US&version=15.0.1&os=Linux&buildid=20120910110134) {
+* {
+  color: #dbdbdb !important;
+  text-shadow: 0px -1px 0px rgba(0,0,0,.4);
+  -moz-appearance: none!important;
+  background: url("images/WindowBg-dark.png") repeat!important;
+
+}}*/
+
+
+
+
